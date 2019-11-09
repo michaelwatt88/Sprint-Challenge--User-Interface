@@ -67,8 +67,22 @@ p {
 }
 
 .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    align-items:center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav-bar > div{
+  width: 100px;
+  padding: 10px auto;
 }
 
 .top-content {
