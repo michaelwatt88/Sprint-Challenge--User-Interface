@@ -92,6 +92,10 @@ p {
     width:100%;
 }
 
+.about{
+    padding: 40px;
+}
+
 .jumbo > img{
     width:100%;
     margin:40px;
